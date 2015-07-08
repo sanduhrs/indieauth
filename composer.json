@@ -1,0 +1,24 @@
+{
+    "name": "drupal/indieauth",
+    "type": "drupal-module",
+    "description": "An indieauth client implementation for Drupal",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Stefan Auditor",
+            "email": "stefan.auditor@erdfisch.de",
+            "role": "Project Lead"
+        },
+        {
+            "name": "See contributors",
+            "homepage": "http://drupal.org/node/?/committers",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "http://drupal.org/project/issues/indieauth"
+    },
+    "require": {
+        "indieauth/client": "0.1.9"
+    }
+}

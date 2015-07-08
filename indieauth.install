@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * An indieauth client implementation.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function indieauth_uninstall() {
+  variable_del('indieauth_authorization_endpoint');
+	variable_del('indieauth_token_endpoint');
+}
+
+/**
+ * Implements hook_requirements().
+ */
+function indieauth_requirements($phase) {
+  $requirements = array();
+  return $requirements;
+}

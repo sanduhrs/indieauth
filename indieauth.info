@@ -1,0 +1,5 @@
+name = Indieauth Client
+description = An indieauth client implementation
+core = 7.x
+
+dependencies[] = composer_manager
